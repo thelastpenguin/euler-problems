@@ -1,5 +1,5 @@
 # Euler Problem 27
-(https://projecteuler.net/problem=27)[https://projecteuler.net/problem=27]
+https://projecteuler.net/problem=27
 
 ```
 Euler Problem 27
