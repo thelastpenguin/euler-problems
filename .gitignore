@@ -284,3 +284,4 @@ FakesAssemblies/
 **/*.Server/GeneratedArtifacts
 **/*.Server/ModelManifest.xml
 _Pvt_Extensions
+problem008-haskell/stuff1.py

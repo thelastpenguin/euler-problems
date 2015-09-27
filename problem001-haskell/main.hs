@@ -3,11 +3,9 @@ main :: IO ()
 isCool :: Integer -> Bool
 isCool x = x `mod` 3 == 0 || x `mod` 5 == 0
 
-addIfCool a b = do
-	if isCool a
-		then b + a
-		else b
+addIfCool a b | a `mod` 3 == 0 = a + b 
+addIfCool a b | a `mod` 5 == 0 = a + b
+addIfCool a b | otherwise = b
 
 
-main = do 
-	print (foldr addIfCool 0 [1, 2 .. 999])
+main = print $ foldr addIfCool 0 $ take 1000 [1..]
