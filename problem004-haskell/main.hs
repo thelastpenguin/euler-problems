@@ -8,7 +8,6 @@ isPalendrome a = theCheck $ toString a
 cartProd xs ys = [(x,y) | x <- xs, y <- ys]
 
 main = do
-
     let theRange = [100..999]
     let prod = cartProd theRange theRange
     let tuppleProduct a = (fst a) * (snd a)
