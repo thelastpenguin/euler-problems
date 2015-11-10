@@ -50,7 +50,6 @@ int main(int argc, const char * argv[]) {
         }
     }
     
-    
     int sum = 0;
     for (auto val : numbers) {
         sum += val;
